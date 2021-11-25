@@ -1,0 +1,92 @@
+.home-wrapper {
+  margin: 30px 16px;
+
+  .title {
+    font-family: 'Red Hat Display';
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 140px;
+  }
+
+  .carousel-wrapper {
+    height: 299px;
+
+    .carousel-item {
+      height: 249px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    margin-bottom: 100px;
+  }
+
+  .about {
+    font-family: 'Lato';
+    line-height: 32px;
+    
+    &--title{
+      font-size: 19px;
+      font-weight: 400;
+    }
+
+    svg {
+      margin: 20px 0px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #565656;
+
+      &.read-more{
+        font-size: 18px;
+      }
+    }
+  }
+
+  .last-posts{
+    margin-top: 100px;
+    letter-spacing: 0.1em;
+    font-family: 'Lato';
+
+    h3 {
+      font-size: 23px;
+      line-height: 38px;
+      font-family: 'Red Hat Display';
+    }
+
+    &__header{
+      margin-bottom: 50px;
+      span {
+        font-size: 16px;
+        color: #7b7b7b;
+      }
+
+    }
+
+    .post {
+      margin-bottom: 50px;
+
+      img {
+        width: 100%;
+        margin-bottom: 16px;
+      }
+
+      label {
+        color: #7b7b7b;
+        font-size: 12px;
+      }
+
+      h3 {
+        margin: 24px 0px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #565656;
+      }
+    }
+  }
+}
