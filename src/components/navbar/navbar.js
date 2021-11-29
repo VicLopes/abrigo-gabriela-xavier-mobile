@@ -18,8 +18,8 @@ export default function Navbar() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/contact">Contato</Link></li>
           <li><Link to="/about">Sobre</Link></li>
-          <li><Link to="/showcase">Vitrine</Link></li>
-          <li><Link to="/faq">FAQ</Link></li>
+          {/* <li><Link to="/showcase">Vitrine</Link></li>
+          <li><Link to="/faq">FAQ</Link></li> */}
         </ul>
       </div>)}
     </nav>
