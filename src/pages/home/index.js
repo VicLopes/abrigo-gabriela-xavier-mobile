@@ -46,11 +46,11 @@ export default function Home() {
       <div className="last-posts">
         <div className="last-posts__header">
           <h3>Últimas Postagens</h3>
-          <span>Ver Tudo <ArrowRight/></span>
+          <span>Ver Tudo <ArrowRight fill="#565656"/></span>
         </div>
         <Post 
           imgSrc="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png"
-          imgLabel="campanhas"
+          imgLabel="Campanhas"
           title="Titulo"
           dateString="8 Junho, 2020"
         >
@@ -66,7 +66,7 @@ export default function Home() {
         </Post>
         <Post 
           imgSrc="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png"
-          imgLabel="campanhas"
+          imgLabel="Campanhas"
           title="Titulo"
           dateString="8 Junho, 2020"
         >
