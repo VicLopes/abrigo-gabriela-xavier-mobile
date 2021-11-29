@@ -1,0 +1,73 @@
+.contact-wrapper {
+  margin: 30px 16px;
+  letter-spacing: 0.1em;
+  p{
+    font-family: 'Lato';
+    color: #565656;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-header {
+    letter-spacing: 0.05em;
+    h2 {
+      font-family: 'Red Hat Display';
+      font-weight: 400;
+      font-size: 33px;
+      line-height: 50px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 32px;
+    }
+  }
+
+  h3 {
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  >p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .contact-forms {
+    margin: 30px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  .contact-networks {
+    display: grid;
+    >div{
+      display: flex;
+      flex-flow: row wrap;
+      gap: 20px;
+    }
+  }
+
+  form {
+    button {
+      background: #565656;
+      width: 135px;
+      height: 45px;
+      border-radius: 60px;
+
+      font-family: 'Lato';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 27px;
+      color: #ffffff;
+    }
+  }
+}
