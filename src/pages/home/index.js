@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-material-ui-carousel'
 import './style.scss'
+import { Post } from '../../components'
 import { ArrowRight } from '../../assets'
 
 const gatos = [
@@ -47,24 +48,30 @@ export default function Home() {
           <h3>Últimas Postagens</h3>
           <span>Ver Tudo <ArrowRight/></span>
         </div>
-        <div className="post">
-          <img src="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png" alt="fundo post" />
-          <label>Campanhas<br/> 8 Junho, 2020</label>
-          <h3>Titulo</h3>
+        <Post 
+          imgSrc="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png"
+          imgLabel="campanhas"
+          title="Titulo"
+          dateString="8 Junho, 2020"
+        >
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis quis velit at blandit.</p>
-        </div>
-        <div className="post">
-          <img src="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png" alt="fundo post" />
-          <label>Campanhas<br/> 8 Junho, 2020</label>
-          <h3>Titulo</h3>
+        </Post>
+        <Post 
+          imgSrc="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png"
+          imgLabel="Campanhas"
+          title="Titulo"
+          dateString="8 Junho, 2020"
+        >
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis quis velit at blandit.</p>
-        </div>
-        <div className="post">
-          <img src="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png" alt="fundo post" />
-          <label>Campanhas<br/> 8 Junho, 2020</label>
-          <h3>Titulo</h3>
+        </Post>
+        <Post 
+          imgSrc="https://rapidmaterials.com/wp-content/uploads/catalog/product/2081_1.png"
+          imgLabel="campanhas"
+          title="Titulo"
+          dateString="8 Junho, 2020"
+        >
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis quis velit at blandit.</p>
-        </div>
+        </Post>
       </div>
     </div>
   )
